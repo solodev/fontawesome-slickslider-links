@@ -34,9 +34,8 @@ a span:hover {
 .carousel .slick-arrow {
   position: absolute;
   top: 50%;
-  background: url(images/arrow.png) center no-repeat;
+  background: url(https://raw.githubusercontent.com/solodev/fontawesome-slickslider-links/master/images/arrow.png) center no-repeat;
   fill: #f1f1f1;
-  ;
   border-radius: 3px;
   border: 1px solid #333;
   background-color: #333;
