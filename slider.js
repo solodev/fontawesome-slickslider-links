@@ -22,25 +22,4 @@ jQuery(document).ready(function ($) {
 			}]
 		});
 	});
-
-	$('.image-slider').slick({
-		slidesToShow: 1,
-		slidesToScroll: 1,
-		arrows: false,
-		infinite: true,
-		fade: true,
-		asNavFor: '.text-slider'
-	});
-
-	$('.text-slider').slick({
-		slidesToShow: 1,
-		slidesToScroll: 1,
-		asNavFor: '.image-slider',
-		dots: false,
-		infinite: true,
-		prevArrow: $('.text-slider').parent().find('.slick-prev'),
-		nextArrow: $('.text-slider').parent().find('.slick-next'),
-		fade: true
-	});
-
 });
